@@ -65,11 +65,24 @@
   background-size: cover;
   background-size: 100% 100%;
   color: aliceblue;
+  padding: 30px;
 }
 .page-header > .container {
   display: flex;
   justify-content: center;
+  width: 800px;
 }
+h1 {
+  margin: 1, 5rem 0;
+  font-size: 40px;
+}
+p {
+  margin: 0.15rem 0;
+}
+.primo-p {
+  margin: 0.1rem 0;
+}
+
 .box {
   width: 600px;
   height: 250px;
@@ -78,7 +91,13 @@
   text-align: center;
 }
 /* main */
-.page-items {
+.page-items-2 {
+}
+
+.page-items-2 > .container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .page-items > .container {
@@ -111,12 +130,27 @@
   line-height: 30px;
   margin-top: 20px;
 }
+.box-13 {
+  height: 300px;
+  width: 400px;
+}
+.box-23 {
+  height: 300px;
+  width: 200px;
+  text-align: left;
+  line-height: 30px;
+}
+
 .img {
   max-height: 100%;
   max-width: 100%;
 }
+.img-2 {
+  max-height: 100%;
+}
+
 h2 {
-  padding-bottom: 10px;
+  margin: 0.2rem 0;
 }
 
 .box-larg > .container {
