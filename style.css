@@ -21,7 +21,8 @@
   color: black;
   border: 1px solid gray;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
+  font-size: 1rem;
 }
 
 .bat-1 {
@@ -30,7 +31,9 @@
   color: black;
   border: 1px solid gray;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  padding-bottom: 10px;
 }
 
 .bat-2 {
@@ -39,7 +42,8 @@
   color: white;
   border: 1px solid gray;
   text-align: center;
-  padding: 7px;
+  padding: 10px;
+  font-size: 1rem;
 }
 /* header */
 
@@ -65,19 +69,19 @@
   background-size: cover;
   background-size: 100% 100%;
   color: aliceblue;
-  padding: 30px;
+  padding: 70px;
 }
 .page-header > .container {
   display: flex;
   justify-content: center;
-  width: 800px;
+  width: 1000px;
 }
 h1 {
-  margin: 1, 5rem 0;
+  margin: 2rem 0;
   font-size: 40px;
 }
 p {
-  margin: 0.15rem 0;
+  margin: 1rem 0;
 }
 .primo-p {
   margin: 0.1rem 0;
@@ -92,6 +96,9 @@ p {
 }
 /* main */
 .page-items-2 {
+  background-color: rgb(228, 224, 224);
+  height: 100%;
+  filter: drop-shadow(0px 10px 31px grey);
 }
 
 .page-items-2 > .container {
@@ -119,8 +126,6 @@ p {
 }
 
 .box-11 {
-  height: 300px;
-  width: 400px;
 }
 
 .box-22 {
@@ -131,8 +136,6 @@ p {
   margin-top: 20px;
 }
 .box-13 {
-  height: 300px;
-  width: 400px;
 }
 .box-23 {
   height: 300px;
@@ -141,35 +144,52 @@ p {
   line-height: 30px;
 }
 
+.box-25 {
+}
+
+.box-15 {
+  height: 300px;
+  width: 200px;
+  text-align: left;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
 .img {
   max-height: 100%;
   max-width: 100%;
 }
 .img-2 {
   max-height: 100%;
+  max-width: 100%;
 }
 
 h2 {
   margin: 0.2rem 0;
 }
 
+.box-larg {
+  background-color: rgb(228, 224, 224);
+  max-height: 100%;
+  filter: drop-shadow(0px 10px 31px grey);
+}
+
 .box-larg > .container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 /* box-large */
 .large {
-  width: 700px;
-  height: 500px;
-  background-color: green;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 /* footer */
 
 .foot {
-  background-color: black;
-  margin-top: 20px;
+  background-color: rgb(47, 49, 51);
+  margin-top: 40px;
 }
 
 .foot > .container {
@@ -184,29 +204,23 @@ h2 {
 .box-pic {
   height: 500px;
   width: 700px;
-  background-color: rgb(202, 142, 142);
+
   display: flex;
 }
 
 .pic-1 {
   height: 500px;
   width: 233px;
-  background-color: aqua;
-  border-right: solid black;
 }
 
 .pic-2 {
   height: 500px;
   width: 233px;
-  background-color: aqua;
-  border-right: solid black;
 }
 
 .pic-3 {
   height: 500px;
   width: 233px;
-  background-color: aqua;
-  border-right: solid black;
 }
 
 .bat-3 {
@@ -220,4 +234,31 @@ h2 {
 .link-items {
   text-decoration: none;
   color: white;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.bot3 {
+  margin-top: 10px;
+  background-color: rgb(112, 95, 240);
+  color: white;
+  border-radius: 20px;
+
+  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+.primo {
+  color: rgb(118, 81, 219);
+}
+li {
+  margin: 1.3rem 0;
 }
